@@ -44,7 +44,7 @@ function shortest() {
 function print_log() {
 
 timestamp=$(date +"%F %R")
-echo "[$timestamp] $1"
+echo "[$timestamp]" "$*"
 
 }
 #shortest "This" "is" "is" "Bash" "Functions" "1" "Task"
